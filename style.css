@@ -1,0 +1,81 @@
+    body{ 
+  background: url(https://wallpapercave.com/wp/RvBjBcY.jpg) no-repeat center center fixed; 
+  background-size: cover;
+}
+
+    .nav{
+        list-style-type: none;
+        margin-top: 130px;
+        width: 16%;
+        height: 100%;
+        position: fixed;
+        background-color: darkgray;
+    }
+    li a{
+        display: block;
+        margin-top: -10px;
+        color: darkblue;
+        padding: 20px;
+        padding-left: -10px;
+        margin-left: -45px;
+        text-decoration: none;
+        font-family: sans-serif;
+        text-align: left;
+    }
+    li a.current{
+        background-color: #228B22;
+        color: #FFFDD0;
+        margin-top: 0px;
+    }
+     li a:hover:not(.current){
+        background-color: #555;
+        color: #FFFDD0;
+    }
+.title{
+    width: 80%;
+    height: 30%;
+    position: fixed;
+    color: whitesmoke;
+    font-family: Chalkduster, fantasy;
+    font-size: 350%;
+    float: left;
+    padding: 10px;
+    margin-top: 230px;
+    margin-left: 90px;
+    margin-bottom: 900px;
+    text-align: center;
+}
+.books{
+    float: none;
+    padding-bottom: -20px;
+    margin-left: 20px;
+    margin-top: 5%;
+    padding-top: -250px;
+    text-align: center; 
+}
+.extreme{
+    float: none;
+    width: 20%;
+    height: 70%;
+    padding-top: -600px;
+    padding-left: 550px;
+    margin-left: 43%;
+    padding-bottom: 25px;
+    align-content: center;
+}
+
+.crest{
+    width: 10%;
+    float: left;
+    height: 30%;
+    margin-top: 10px;
+    position: fixed;
+}
+.gif{
+    width: 10%;
+    height: 30%;
+    padding: 0px;
+    margin-right:-25px;
+    margin-top: -10px;
+    float: right;
+}
